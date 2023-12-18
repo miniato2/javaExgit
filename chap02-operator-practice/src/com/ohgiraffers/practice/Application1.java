@@ -18,7 +18,7 @@ public class Application1 {
 
         int num = 7;
 
-        String str = ((num%2)==1)? "홀이군" : "짝이군";
+        String str = ((num%2)!=0)? "홀이군" : "짝이군";
 
         System.out.println(str);
 
